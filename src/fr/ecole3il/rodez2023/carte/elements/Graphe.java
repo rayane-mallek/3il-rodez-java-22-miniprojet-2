@@ -40,7 +40,7 @@ public class Graphe<E> {
         if (adjacences.containsKey(noeud)) {
             return new ArrayList<>(adjacences.get(noeud).keySet());
         }
-        
+
         return new ArrayList<>();
     }
 }
